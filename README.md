@@ -12,12 +12,24 @@
 
 
 <hr>
+
 # PHP API(CRUD) 
 
-### Video :
+### Videos -->
 
-<video src = "https://github.com/user-attachments/assets/0504ce22-a52b-4267-b6b3-25d9e3ac36d2">
-<video src = "https://github.com/user-attachments/assets/76e13e36-3c88-4ca8-b403-f7edb9c21e50">
-<video src = "https://github.com/user-attachments/assets/43e86275-7d80-4e66-817a-6c52794fb764">
-<video src = "https://github.com/user-attachments/assets/2a313ad5-0097-4141-b970-8ef1ae6ed654">
+<h2> Add Data :
+ <video src = "https://github.com/user-attachments/assets/0504ce22-a52b-4267-b6b3-25d9e3ac36d2">
+</h2>
+
+<h2> Update Data :
+ <video src = "https://github.com/user-attachments/assets/76e13e36-3c88-4ca8-b403-f7edb9c21e50">
+</h2>
+   
+<h2> Delete Data :
+ <video src = "https://github.com/user-attachments/assets/43e86275-7d80-4e66-817a-6c52794fb764">
+ </h2>
+   
+<h2> fetch All Data or By ID :
+ <video src = "https://github.com/user-attachments/assets/2a313ad5-0097-4141-b970-8ef1ae6ed654">
+ </h2>
 
