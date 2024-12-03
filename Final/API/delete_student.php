@@ -8,12 +8,14 @@ include("../confige.php");
 $c1 = new Confige();
 
 if ($_SERVER['REQUEST_METHOD'] == "DELETE") {
-    $data = json_decode(file_get_contents('php://input'), true);
+
+    $res = file_get_contents('php://input');
+    parse_str($res,$data);
 
     if (isset($data['id'])) {
         $id = intval($data['id']);
-        $query = "DELETE FROM school WHERE id=$id";
-        if ($c1->conn->query($query)) {
+        $status = $c1->removeStudent($id);
+        if ($status) {
             $arr['msg'] = "Student deleted successfully.";
         } else {
             $arr['error'] = "Failed to delete student.";

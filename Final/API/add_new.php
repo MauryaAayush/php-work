@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $res = $c1->conn->query($query);
 
     if ($res) {
-        $arr['status'] = "Record inserted successfully!";
+        $arr['msg'] = "Record inserted successfully!";
     } else {
         $arr['error'] = "Record insertion failed!";
     }
