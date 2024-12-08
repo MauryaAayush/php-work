@@ -10,7 +10,6 @@
 
 <img src="https://github.com/user-attachments/assets/37ab5fac-8cd2-45dd-b895-5116337dd4c6">
 
-
 <hr>
 
 # PHP API(CRUD) 
